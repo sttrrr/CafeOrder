@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pizza Delivery</string>
+    <string name="logoDescription">Логотип доставки</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="login">Введите ваше имя</string>
+    <string name="password">Введите ваш пароль</string>
+    <string name="buttonText">Сделать заказ!</string>
+</resources>
