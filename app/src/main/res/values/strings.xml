@@ -5,4 +5,5 @@
     <string name="login">Введите ваше имя</string>
     <string name="password">Введите ваш пароль</string>
     <string name="buttonText">Сделать заказ!</string>
+    <string name="toastEr">Все поля должны быть заполнены</string>
 </resources>

@@ -10,7 +10,7 @@
     android:background="@color/mate">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/welcomeText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -29,7 +29,7 @@
         android:textSize="36sp" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/loginName"
         android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -60,6 +60,7 @@
         android:layout_marginBottom="16dp"
         android:background="@color/button"
         android:textColor="@color/white"
+        android:onClick="onClickCreateOrder"
         />
 </LinearLayout>
 
